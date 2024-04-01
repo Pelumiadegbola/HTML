@@ -1,0 +1,88 @@
+/* Element Selectors */
+p#first{
+    font-size: 5vw;
+}
+
+/* class selector */
+
+#new{
+    color: aqua;
+}
+/* element selector < class < id*/
+a{
+    font-size:5vw ;
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color:blue
+}
+a:visited{
+    color:aquamarine
+}
+
+h6 , p {
+    font-size: 3vw;
+}
+
+div div p{
+    color: brown;
+    font-size: 20px;
+}
+
+div .one{
+    color: black;
+}
+
+
+.overlay{
+    opacity: 0.5;
+}
+p{
+    height: 80px;
+    width: 240px;
+    border: 3px solid coral;
+    border-radius: 5px;
+}
+h1{
+    font-family: fantasy;
+}
+h5{
+    background-color: #bd4d4d;  
+
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+/* .relative{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+.abs{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+} */
+.fixed{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 200px;
+    width: 200px;
+}
